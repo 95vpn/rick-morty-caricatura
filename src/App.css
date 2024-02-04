@@ -78,7 +78,7 @@ h1 {
 
 .hero {
   border:  3px #71a821;
-  min-height: 200px;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   background-image: url('../assets/rick-.PNG');
@@ -88,3 +88,14 @@ h1 {
   margin: 0 auto;
   margin-bottom: 20px;
 }
+
+/* .hero {
+  display: block;
+  object-fit: cover;
+  background-image: url('../assets/rick-.PNG');
+  border-radius: 0px;
+  width: 100%;
+  height: 30vh;
+  opacity: 1;
+  object-position: center 0%;
+} */
