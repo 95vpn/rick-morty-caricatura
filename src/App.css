@@ -42,7 +42,7 @@ h1 {
 /* -----App---- */
 
 .app {
-  min-height: 75vh;
+  min-height: calc(100vh - 30vh);
   display: flex;
   flex-direction: column;
   align-items: center;
